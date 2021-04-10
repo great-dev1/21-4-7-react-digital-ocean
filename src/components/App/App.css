@@ -1,11 +1,14 @@
 .wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
   padding: 20px;
 }
 
-.wrapper h1 {
-  text-align: center;
-  width: 100%;
+.wrapper button {
+  background: none;
+  border: black solid 1px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.wrapper div {
+  margin: 20px 0;
 }
