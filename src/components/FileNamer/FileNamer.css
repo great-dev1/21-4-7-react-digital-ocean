@@ -1,0 +1,40 @@
+.information {
+  font-size: .75em;
+  color: blue;
+  cursor: pointer;
+}
+
+.wrapper button.information {
+  border: none;
+}
+
+.information-wrapper {
+  position: relative;
+}
+
+.popup {
+  position: absolute;
+  background: white;
+  border: 1px darkgray solid;
+  padding: 10px;
+  top: -70px;
+  left: 0;
+}
+
+.preview {
+  border: 1px darkgray solid;
+  padding: 10px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  text-align: left;
+}
+
+.wrapper button {
+  background: none;
+  border: 1px black solid;
+  margin-top: 10px;
+}
